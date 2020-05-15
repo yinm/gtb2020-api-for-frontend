@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "create:spec": "redoc-cli bundle openapi.yaml -o public/spec/index.html"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "redoc-cli": "^0.9.7"
+  }
+}
